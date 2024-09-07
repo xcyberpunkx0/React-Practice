@@ -1,8 +1,10 @@
 import React from 'react';
-import Product from './Product'
+import Player from './Player';
 
 function App() {
-  return <Product name="Apple Watch" price = {399} rating = "4.5/5.0" />;
+    return(
+    <Player songName="As it Was" artist="Harry" />
+    );
 }
 
 export default App;
