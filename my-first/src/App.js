@@ -5,7 +5,7 @@ import PropsDisplayer from './PropsDisplayer';
 
 function App() {
   return (
-    <PropsDisplayer />
+    <PropsDisplayer myProp="Hiii!" />
   );
 }
 
