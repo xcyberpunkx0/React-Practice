@@ -1,10 +1,15 @@
 import React from 'react';
-import Player from './Player';
+import Greeting from './Greeting';
 
 function App() {
-    return(
-    <Player songName="As it Was" artist="Harry" />
-    );
+  return (
+    <div>
+      <h1>
+        MovieFlix
+      </h1>
+      <Greeting name="Alison" signedIn={true} />
+    </div>
+  );
 }
 
 export default App;
