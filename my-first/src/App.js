@@ -1,25 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Product from './Product'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Product name="Apple Watch" price = {399} rating = "4.5/5.0" />;
 }
 
 export default App;
