@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './App.css';
 import ColorPicker from './ColorPicker';
 import Bool from './Bool';
@@ -7,6 +6,7 @@ import PhoneNumber from './PhoneNo';
 import Counter from './Counter';
 import PersonalPizza from './Pizza';
 import GroceryCart from './GroceryCart';
+import EditProfile from './EditProfile';
 
 
 export default function App() {
@@ -25,6 +25,8 @@ export default function App() {
   <PersonalPizza />
   <hr></hr>
   <GroceryCart />
+  <hr></hr>
+  <EditProfile />
   </div>
  );
 }
