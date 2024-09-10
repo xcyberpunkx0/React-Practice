@@ -17,7 +17,7 @@ export default function App() {
   <Bool />
   <hr></hr>
   <EmailTextInput />
-  <hr></hr>
+  <hr></hr> 
   <PhoneNumber />
   <hr></hr>
   <Counter />
